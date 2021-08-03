@@ -14,6 +14,7 @@ int main() {
 		cin >> n >> a;
 		int prev = 1;
 		int sum = 0;
+		// view the image in this repository for better understanding
 		// perform the Russian Peasant Multiplication
 		auto RPM = [&](int x, int y) {
 			int res = 1;
